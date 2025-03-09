@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveGame.Core", "DetectiveGame.Core\DetectiveGame.Core.csproj", "{56FC58F9-8C09-42E2-A3C9-98A0680B0EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveGame.Domain", "DetectiveGame.Domain\DetectiveGame.Domain.csproj", "{376FDD1B-8892-42C2-B159-6C9ABC7740A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveGame.Application", "DetectiveGame.Application\DetectiveGame.Application.csproj", "{09165C29-DF68-4E51-90BD-4040E67C9EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveGame.Persistence", "DetectiveGame.Persistence\DetectiveGame.Persistence.csproj", "{251D5208-B223-43A7-9F29-6B9B87C3CAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectiveGame.WebAPI", "DetectiveGame.WebAPI\DetectiveGame.WebAPI.csproj", "{D1686A83-76C0-42AE-BAA6-D371B6906B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FC58F9-8C09-42E2-A3C9-98A0680B0EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FC58F9-8C09-42E2-A3C9-98A0680B0EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FC58F9-8C09-42E2-A3C9-98A0680B0EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FC58F9-8C09-42E2-A3C9-98A0680B0EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376FDD1B-8892-42C2-B159-6C9ABC7740A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376FDD1B-8892-42C2-B159-6C9ABC7740A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376FDD1B-8892-42C2-B159-6C9ABC7740A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376FDD1B-8892-42C2-B159-6C9ABC7740A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09165C29-DF68-4E51-90BD-4040E67C9EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09165C29-DF68-4E51-90BD-4040E67C9EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09165C29-DF68-4E51-90BD-4040E67C9EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09165C29-DF68-4E51-90BD-4040E67C9EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251D5208-B223-43A7-9F29-6B9B87C3CAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251D5208-B223-43A7-9F29-6B9B87C3CAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251D5208-B223-43A7-9F29-6B9B87C3CAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251D5208-B223-43A7-9F29-6B9B87C3CAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1686A83-76C0-42AE-BAA6-D371B6906B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1686A83-76C0-42AE-BAA6-D371B6906B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1686A83-76C0-42AE-BAA6-D371B6906B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1686A83-76C0-42AE-BAA6-D371B6906B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
